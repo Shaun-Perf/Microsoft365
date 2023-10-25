@@ -1,12 +1,12 @@
 # Variables
-$tenantId = "1ef7750f-783b-430a-bcc2-75a799247c48"
+$tenantId = "Tenant-ID"
 $ErrorActionPreference = "Stop"
 $dateTimeStamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $UsersWithNoLicenseFile = "C:\Softlib\Error\NoLicense\UsersWithNoLicense_$dateTimeStamp.txt"
 
 # Define Client ID and Client Secret for app authentication
-$clientId = "ff716bcc-d776-400b-8259-b614a8cbeb1f"
-$clientSecret = "-ul8Q~bWld~O0zw3V~tffNMr6FLD3LNw0qrFya6T"
+$clientId = "ClientID"
+$clientSecret = "Client_Secret"
 
 # Authenticate to Microsoft Graph using Client ID and Client Secret
 $tokenRequest = @{
